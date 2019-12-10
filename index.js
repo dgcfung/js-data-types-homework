@@ -12,11 +12,19 @@
 
 
 
-const givenVariable = 20;
+const givenVariable = 20; 
 const doubledVariable = givenVariable * 2;
 const tripledVariable = givenVariable * 3;
 console.log(doubledVariable);
 console.log('EXAMPLE', 'tripledVariable', tripledVariable);
+
+var className = "sei-blizzard"
+const bestClass= className.toUpperCase()
+console.log(bestClass)
+
+const bestClassLowercase= bestClass.toLowerCase()
+console.log(bestClassLowercase)
+
 // After running this and feeling comfortable, feel free to comment the above block of code out (either give each line a // or highlight the block of code and press COMMAND - / )
 
 // DATATYPES
@@ -31,8 +39,8 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 // Set a constant named 'bestClass' equal to the name of our SEI class (Blizzard) capitalized.
 // Log this value to the console.
 
-let bestClass = 'Blizzard'
-console.log(bestClass)
+// let bestClass = 'Blizzard'
+// console.log(bestClass)
 // let bestClassLowercase = bestClass.toLowerCase()
 
 // Set a constant named bestClassLowercase that converts bestClass to an all lowercase string.
@@ -48,8 +56,8 @@ console.log(bestClass)
  *
  *********************************/
 
-const amount1 = 1;
-const amount2 = 3;
+// const amount1 = 1;
+// const amount2 = 3;
 
 // Write an expression here which adds the values of amount1 and amount2 and
 // sets them to a variable called total
@@ -67,7 +75,7 @@ const amount2 = 3;
  *
  *********************************/
 
-const pounds = 155;
+// const pounds = 155;
 
 // Write an expression here which converts pounds to kilograms and set the value equal
 // to a variable called "kilograms"
