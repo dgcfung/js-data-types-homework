@@ -179,7 +179,7 @@ const pounds = 155;
 
 
 // ***Re-assign*** the variable that is equal to the number of guests staying
-// in our hotel by checking the currnt items count of grandHotelTremezzoGuests array.
+// in our hotel by checking the current items count of grandHotelTremezzoGuests array.
 // (Don't create a new variable!!)
 //  Log the variable to the console.
 
