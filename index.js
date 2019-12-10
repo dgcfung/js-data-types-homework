@@ -78,7 +78,10 @@ console.log(total)
  *
  *********************************/
 
-// const pounds = 155;
+const pounds = 155;
+var convertLbKg=.454
+var kilograms=  pounds * convertLbKg
+console.log(kilograms)
 
 // Write an expression here which converts pounds to kilograms and set the value equal
 // to a variable called "kilograms"
