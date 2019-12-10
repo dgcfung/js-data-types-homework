@@ -99,8 +99,12 @@ console.log(kilograms)
  *********************************/
 
 
-
-
+var grandHotelTremezzoGuests = ['George Clooney', 'Silvio Berlusconi', 'Isabella Rosellini']
+console.log(grandHotelTremezzoGuests)
+grandHotelTremezzoGuests.push('Fabio')
+console.log(grandHotelTremezzoGuests)
+grandHotelTremezzoGuests.pop(grandHotelTremezzoGuests[3])
+console.log(grandHotelTremezzoGuests)
 
 // Create a variable grandHotelTremezzoGuests that is equal to an array containing three strings:
 // 'George Clooney' 'Silvio Berlusconi'  and 'Isabella Rossellini'.
@@ -135,9 +139,8 @@ console.log(kilograms)
 // Log grandHotelTremezzoGuests to the console.
 
 
-
-
-
+grandHotelTremezzoGuests.push('Mario Batali')
+console.log(grandHotelTremezzoGuests)
 
 
 
@@ -156,6 +159,9 @@ console.log(kilograms)
 // Create a variable called totalGuests that is equal to the number of guests staying in our hotel
 // by checking the items count of grandHotelTremezzoGuests array.
 // Log totalGuests to the console.
+
+var totalGuests = grandHotelTremezzoGuests.length
+console.log(totalGuests)
 
 
 
