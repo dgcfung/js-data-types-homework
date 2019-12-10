@@ -173,13 +173,16 @@ console.log(totalGuests)
 
 
 
+var grandHotelTremezzoPastGuests= []
+console.log(grandHotelTremezzoPastGuests)
 
 
 // Create a variable 'grandHotelTremezzoPastGuests' set to an empty Array.
 // Log grandHotelTremezzoPastGuests to the console
 
 
-
+grandHotelTremezzoPastGuests.push(grandHotelTremezzoGuests.splice(0,1))
+console.log(grandHotelTremezzoPastGuests)
 
 
 
@@ -191,7 +194,8 @@ console.log(totalGuests)
 // Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same console.log statement.
 
 
-
+totalGuests= grandHotelTremezzoGuests.length
+console.log(totalGuests)
 
 
 
