@@ -286,6 +286,11 @@ console.log(sleepingGuests)
  *
  *********************************/
 
+var milan= []
+milan.push(grandHotelTremezzoGuests.splice(0, grandHotelTremezzoGuests.length))
+// grandHotelTremezzoGuests.splice(0,grandHotelTremezzoGuests.length)
+console.log(milan)
+
 
 
 // Lake Como has started to flood so all of the guests are fleeing to Milan.
