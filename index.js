@@ -56,8 +56,11 @@ console.log(bestClassLowercase)
  *
  *********************************/
 
-// const amount1 = 1;
-// const amount2 = 3;
+const amount1 = 1;
+const amount2 = 3;
+var total = amount1 + amount2
+console.log(total)
+
 
 // Write an expression here which adds the values of amount1 and amount2 and
 // sets them to a variable called total
