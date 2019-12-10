@@ -222,11 +222,17 @@ console.log(totalGuests)
  *********************************/
 
 
+for (let i=0; i<grandHotelTremezzoGuests.length; i++){
+    console.log(grandHotelTremezzoGuests[i] + ' gets a bottle of Nero de Como')
+}
 
 // The hotel is going to deliver a bottle of Nero de Como to each guest.
 // Use a for loop to log out '*PERSON'S NAME* gets a bottle of Nero de Como'
 // for each guest in the grandHotelTremezzoGuests array.
 
+for (let i=0; i<grandHotelTremezzoGuests.length; i++){
+    console.log(grandHotelTremezzoGuests+ ' please hush up!!!')
+}
 
 
 
